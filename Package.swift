@@ -20,7 +20,7 @@ let package = Package(
     ],
     dependencies: [
         // Mark: Dependencies Begin
-        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0"),
+        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.19.0-beta1"),
         // Mark: Dependencies End
     ],
     // Mark: Targets
@@ -38,13 +38,13 @@ let package = Package(
         // Mark: Binary Targets
         .binaryTarget(
             name: "AATConsentViewController",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/ConsentViewController.zip",
-            checksum: "ce0a6e1dd12c0b9b41429a491bfa02cee39291a2d479f0a4ee74de9026335ea1"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.19.0-beta1/ConsentViewController.zip",
+            checksum: "cb8501ac36f746152c2dbd6634d2ef54bfd7f701654e1ce3ad454ed9d4ed1434"
         ),
         .binaryTarget(
             name: "AATSourcePointCMPAdapter",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/AATSourcePointCMPAdapter.zip",
-            checksum: "8d846bc3d3f472f2773a7751b9cbb3bd10d25febb5b40823721548af79dbc442"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.19.0-beta1/AATSourcePointCMPAdapter.zip",
+            checksum: "8fdc6cdb60c3c8d38a93b18ee1732c7e4877c5b4e89e4f22f0c13974d553fa4e"
         ),
     ]
 )
